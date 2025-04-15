@@ -1,0 +1,7 @@
+{
+  "name": "atividade-pronta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
