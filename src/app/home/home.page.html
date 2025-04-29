@@ -1,20 +1,75 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-segment-view class="content">
+
+    <!-- Primeiro slide -->
+    <ion-segment-content id="first">
+      <ion-card class="content">
+        <img alt="Silhouette of mountains" src="/assets/istockphoto-1324569050-612x612.jpg" />
+        <ion-card-header>
+          <ion-card-title>ORZH - Quem somos?</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Na ORZH, conectamos empresas e projetos a programadores qualificados, prontos para desenvolver soluções
+          inovadoras e eficientes.
+          Nosso compromisso é entregar tecnologia de ponta com qualidade, rapidez e transparência.Se você precisa de um
+          site, aplicativo
+          ou sistema personalizado, está no lugar certo. Trabalhamos para transformar sua visão em realidade digital.
+        </ion-card-content>
+      </ion-card>
+      <!-- Fim do card -->
+      <ion-card-content class="icone1">
+        <ion-icon name="arrow-forward-outline" size="large"></ion-icon>
+      </ion-card-content>
+    </ion-segment-content>
+
+    <!-- Segundo slide -->
+    <ion-segment-content id="second">
+      <ion-card class="content">
+        <img alt="Silhouette of mountains" src="/assets/4ac684cf-556e-4311-925c-e4b8b56fc2c7.png" />
+        <ion-card-header>
+          <ion-card-title>Apresentação</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          A ORZH é uma empresa especializada em conectar projetos a programadores qualificados, oferecendo soluções
+          tecnológicas inovadoras e eficientes.
+          Nosso objetivo é transformar ideias em realidade digital, criando sites, aplicativos e sistemas personalizados
+          que atendam às necessidades de cada cliente.
+          Com foco em qualidade, rapidez e transparência, trabalhamos para impulsionar empresas e empreendedores no
+          mundo digital. Se você busca tecnologia de ponta
+          e profissionais capacitados, a ORZH está pronta para entregar o que há de melhor no desenvolvimento web e
+          mobile.
+        </ion-card-content>
+      </ion-card>
+      <!-- Fim do card -->
+      <ion-card-content class="icone2">
+        <ion-icon name="arrow-forward-outline" size="large"></ion-icon>
+      </ion-card-content>
+    </ion-segment-content>
+
+    <!-- Terceiro slide -->
+    <ion-segment-content id="third">
+      <ion-card class="content">
+        <img alt="Silhouette of mountains" src="/assets/Image 9 de abr. de 2025, 09_23_34.png" />
+        <ion-card-header>
+          <ion-card-title>Conclusão</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          A ORZH nasceu para simplificar o acesso a soluções tecnológicas de alta qualidade, conectando projetos a
+          programadores experientes.
+          Nosso compromisso é entregar inovação, eficiência e transparência em cada desenvolvimento, garantindo que sua
+          visão se torne uma realidade digital.
+          Seja para criar um site, um aplicativo ou um sistema completo, estamos prontos para levar sua ideia ao próximo
+          nível. Junte-se à ORZH e transforme
+          seu projeto com tecnologia de ponta!
+        </ion-card-content>
+        <ion-button routerLink="/menu">Ir para menu</ion-button>
+      </ion-card>
+      <!-- Fim do card -->
+    </ion-segment-content>
+
+  </ion-segment-view>
 </ion-content>
